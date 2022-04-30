@@ -173,22 +173,6 @@ const PARAMS = new URLSearchParams(window.location.search);
       return container;
     }
 
-    function build_system_getter() {
-      let ele = document.getElementById("system-desc");
-      ele.innerHTML = `
-        <p>No system given. Enter a system ID or discord ID here:</p>
-        <form method="get" class="form-inline">
-          <label for="s" class="sr-only">System ID</label>
-          <input class="form-control mb-2 mr-sm-2" type="text" id="s" name="s" placeholder="System ID"/>
-          <button class="form-control mb-2" type="submit">Load system.</button>
-        </form>
-        <p>Alternatively, add "?s=MY_SYSTEM_ID" to the URL.</p>
-        <p>To add different groups, you can also add "&g=MY,GROUP,LIST" to the URL after the s=.</p>`;
-      ele = document.getElementById("system-name");
-      ele.innerText = "No system specified";
-    }
 
-    if (PARAMS.get("s"))
-      get_system_name(PARAMS.get("s"));
-    else
-      build_system_getter();
+      get_system_name("rpqxl");
+
