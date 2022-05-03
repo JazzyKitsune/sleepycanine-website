@@ -37,7 +37,7 @@ function append_group_section(group_id) {
     <div class="text-black" id="${group_id}" data-colour="#36393e">
       <div id="${group_id}-bg">
         <div class="p-1 card bg-light" style="margin-right:calc(15px + .25em); margin-left:calc(15px + .25em)" id="${group_id}-header">
-          <div class="card-title" id="${group_id}-name"></div>
+          <div class="card-title bold" id="${group_id}-name"></div>
           <div class="card-text" id="${group_id}-desc"></div>
         </div>
       </div>
