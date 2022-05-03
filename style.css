@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.text
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+.text-center
+{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.banner
+{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
