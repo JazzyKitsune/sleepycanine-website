@@ -4,7 +4,7 @@ Massively work in progress atm
 
 
 # Pluralkit System Display
-https://sleepycanine.me/bios
+https://sleepycanine.me/about
 
 Original website is https://system.rockett.space/gen.html
 

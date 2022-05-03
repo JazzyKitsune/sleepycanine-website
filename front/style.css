@@ -45,13 +45,10 @@
 	border: 4px solid black;
 }
 
-.text
-{
+.text{
 	font-family: 'Roboto', sans-serif;
 }
 
-.center-text
-{
-	font-family: 'Roboto', sans-serif;
+.center{
 	text-align:center
 }

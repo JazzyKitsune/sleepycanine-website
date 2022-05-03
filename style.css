@@ -1,20 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.text
-{
+.text {
 	font-family: 'Roboto', sans-serif;
 }
 
-.text-center
-{
-	font-family: 'Roboto', sans-serif;
+.center {
 	text-align: center;
 }
 
-.banner
-{
+.banner {
 	max-width: 100%;
-	height: auto;
+	height: 500px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
