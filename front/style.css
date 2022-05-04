@@ -23,6 +23,15 @@
 	display: flex;
 	flex-flow: row wrap;
 	gap: 1rem;
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (min-width: 600px){
+	.pkfronters--member-card-container{
+		max-width: 50%;
+	}
 }
 
 .pkfronters--member-card
