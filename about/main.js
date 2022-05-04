@@ -135,7 +135,7 @@ function make_member_section(parent, member_list) {
           <img src="${member.avatar_url}" alt="${escapeHtml(member.name)}" class="card-img" />
           <div class="card-body">
             <div class="card-title d-flex justify-content-between">
-              <div>${escapeHtml(member.display_name || member.name)}</div>
+              <div>${escapeHtml(member.name)}</div>
               <div class="discord-mono">${proxy}</div>
             </div>
             ${pronouns}
