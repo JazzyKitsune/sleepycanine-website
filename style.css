@@ -3,17 +3,16 @@
 .heading {
 	font-family: 'Roboto', sans-serif;
 	color: white;
+	text-align: center;
 }
 
 .text {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14pt;
-	color:white;
-}
-
-.center {
+	color: white;
 	text-align: center;
 }
+
 
 .banner {
 	max-width: 100%;
@@ -74,7 +73,6 @@
 .links-container {
 	height: 50px;
 	position: relative;
-	top: 75px;
 	font-size: 16pt;
 	color: white;
 	/* border: green solid 1px */
@@ -82,10 +80,11 @@
 
 a {
 	color: white;
+	text-decoration: none;
 }
 
 a:hover {
-	color: blue
+	color: #00aaff;
 }
 
 body {
