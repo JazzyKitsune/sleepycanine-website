@@ -56,6 +56,7 @@
 .button-container {
 	height: 75px;
 	position: relative;
+	/* border:red solid 1px; */
 }
 
 .button-center {
@@ -65,4 +66,20 @@
 	left: 50%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+}
+
+.links-container {
+	height: 50px;
+	position: relative;
+	top: 75px;
+	font-size: 16pt;
+	/* border: green solid 1px */
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: blue
 }
