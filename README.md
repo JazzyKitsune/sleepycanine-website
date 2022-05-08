@@ -1,7 +1,5 @@
 # The Sleepy Canines Personal Website
-This is the source for our personal website at https://sleepycanine.me/
-Massively work in progress atm
-
+Source for our personal website at https://sleepycanine.me/
 
 # Pluralkit System Display
 https://sleepycanine.me/about
