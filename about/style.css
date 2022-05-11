@@ -2,20 +2,28 @@
     font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
   }
 
-  .spoiler {
-    background: black;
-    color: transparent;
-    cursor: help;
-    user-select: none;
-    transition: background 0.3s ease 0.2s, color 0.2s ease 0.25s;
-  }
+.spoiler {
+  background: black;
+  color: transparent;
+  cursor: help;
+  user-select: none;
+  transition: background 0.3s ease 0.2s, color 0.2s ease 0.25s;
+}
 
-  .spoiler:hover,
-  .spoiler:focus {
-    background: #e8e8e8aa;
-    color: inherit;
-  }
+.spoiler:hover,
+.spoiler:focus {
+  background: #e8e8e8aa;
+  color: inherit;
+}
 
-  .bold{
-    font-weight: bold;
-  }
+.bold{
+  font-weight: bold;
+}
+
+a {
+  color: #00aaff;
+}
+  
+a:hover {
+  color: #cc00ff;
+}
