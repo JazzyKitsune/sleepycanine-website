@@ -13,7 +13,6 @@
 	text-align: center;
 }
 
-
 .banner {
 	max-width: 100%;
 	height: auto;
@@ -35,7 +34,7 @@
 	padding: 10px 15px;
 	background-color: #36393e;
 	transition-duration: 0.s;
-	margin: 5px;
+	margin: 10px 5px;
 	/* Text Properties */
 	color: white;
 	font-family: 'Roboto', sans-serif;
@@ -48,15 +47,9 @@
 }
 
 .button-container {
-	height: 75px;
-	position: relative;
-	/* border:red solid 1px; */
-}
-
-.button-center {
 	display: flex;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
 }
 
 .links-container {
@@ -64,7 +57,9 @@
 	position: relative;
 	font-size: 20pt;
 	color: white;
-	/* border: green solid 1px */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 a {
