@@ -3,7 +3,7 @@
 .pkfronters--member-list--pronouns,
 .pkfronters--member-card--pronouns
 {
-	word-break: break-all;
+	word-break: break-word;
 }
 
 .pkfronters--member-list--pronouns::before,
@@ -47,13 +47,14 @@
 
 .pkfronters--member-card--avatar
 {
-	width: 100%;
-	height: auto;
+	min-width: 6rem;
+	width: 8rem;
+	min-height: 6rem;
+	height: 8rem;
 	margin: 0 0 0.5rem 0;
 	border-radius: 4px;
-	border: 4px solid black;
+	border: 4px solid transparent;
 }
-
 .text{
 	font-family: 'Roboto', sans-serif;
 	color:white;
