@@ -1,4 +1,4 @@
-const PARAMS = {"s": "rpqxl", "g": "yrqps,fnuzz,bwltj"};
+const PARAMS = {"s": "rpqxl", "g": "yrqps,fnuzz"};
 
 function get_system_name(system_id) {
   let xhttp = new XMLHttpRequest();
