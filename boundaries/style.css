@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.heading {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt;
+	color: white;
+	text-align: center;
+}
+
+.list {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt;
+	color: white;
+}
+
+.link{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24pt;
+	color: white;
+	text-align: center;
+}
+
+.banner {
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	margin: auto;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width: 500px){
+	.banner{
+		height: 500px;
+	}
+}
+
+.button {
+	/* Button Properties */
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px 15px;
+	background-color: #36393e;
+	transition-duration: 0.s;
+	margin: 10px 5px;
+	/* Text Properties */
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt;
+}
+
+.button:hover {
+	background-color: white;
+	color: black;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.links-container {
+	height: 50px;
+	position: relative;
+	font-size: 20pt;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	margin: 3px;
+	transition-duration: 0.2s;
+}
+
+a:hover {
+	color: #00aaff;
+}
+
+body {
+	background-color: #36393e;
+}
