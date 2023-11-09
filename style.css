@@ -28,6 +28,12 @@
 	border-radius: 10px;
 }
 
+.team {
+	display: flex;
+	margin: auto;
+	border-radius: 10px;
+}
+
 @media only screen and (min-width: 500px){
 	.banner{
 		height: 500px;
