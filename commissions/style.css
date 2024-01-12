@@ -55,6 +55,22 @@
 	align-items: center;
 }
 
+.examples {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: inherit;
+	padding: 15px;
+}
+
+.images {
+	text-align: center;
+}
+
+img {
+	max-height: 300px;
+}
+
 a {
 	color: white;
 	text-decoration: none;
