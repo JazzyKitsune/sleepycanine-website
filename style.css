@@ -41,14 +41,14 @@
 }
 
 .button {
-	/* Button Properties */
+	/* Button */
 	border: 2px solid black;
 	border-radius: 10px;
 	padding: 10px 15px;
-	background-color: #36393e;
+	background-color: #161616;
 	transition-duration: 0.s;
 	margin: 10px 5px;
-	/* Text Properties */
+	/* Text */
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14pt;
@@ -87,5 +87,5 @@ a:hover {
 }
 
 body {
-	background-color: #36393e;
+	background-color: #161616;
 }
